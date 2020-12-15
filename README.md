@@ -2,6 +2,11 @@
 
 I did not have much time to improve code and write tests. Thanks for understanding!
 
+
+# Screen Record
+
+https://drive.google.com/file/d/1bBQZCcTOTj9Yjn1VKbBkr9fGGWzXnPc3/view?usp=sharing
+
 # StackOverflow
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.8.
