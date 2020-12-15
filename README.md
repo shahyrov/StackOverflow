@@ -6,11 +6,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Once you cloned the app, run below commands:
 
-cd StackOverflow
+`cd StackOverflow`
 
-npm install OR yarn install
+`npm install` OR `yarn install`
 
-ng serve --open
+`ng serve --open`
 
 
 ## To install redux DevTool add an extention to your Chrome
