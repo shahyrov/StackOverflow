@@ -8,7 +8,7 @@ Once you cloned the app, run below commands:
 
 `cd StackOverflow`
 
-`npm install` OR `yarn install`
+`npm install` OR `yarn`
 
 `ng serve --open`
 
