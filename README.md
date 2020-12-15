@@ -1,4 +1,4 @@
-# piano-assessment
+# StackOverflow
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.8.
 
@@ -10,7 +10,7 @@ Run `ng serve --open` for a dev server.`
 
 Once you cloned the app, run below commands:
 
-cd piano-assessment
+cd StackOverflow
 
 npm install OR yarn install
 
