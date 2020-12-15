@@ -39,7 +39,7 @@ export class StoreModule {
 
     store.configureStore(
       rootReducer,
-      {},
+      JSON.parse(localStorage.getItem('store')) || {},
       middlewares,
       devTools.isEnabled() ? [ devTools.enhancer() ] : []
     );
@@ -57,6 +57,7 @@ export class StoreModule {
     store.subscribe(() => {
       const sessionStorage = SessionStorageUtil.getInstance();
       sessionStorage.saveState(store.getState());
+      localStorage.setItem('store', JSON.stringify(store.getState()));
     });
   }
 }

@@ -33,9 +33,9 @@ export class SearchResultComponent implements OnInit {
     this.authorActions.getAuthorQuestions(userId);
     let isDialogOpen = false;
     this.questions$.subscribe((res: AuthorDto) => {
-      if (!!res && !isDialogOpen) {
+      if (!!res && res.hasOwnProperty('items') && !isDialogOpen) {
         isDialogOpen = true;
-        this.onOpenDialog(res);
+        this.onOpenDialog({...res});
       }
     });
   }
