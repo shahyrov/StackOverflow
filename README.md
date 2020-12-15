@@ -1,3 +1,7 @@
+# ReadMe
+
+I did not have much time to improve code and write tests. Thanks for understanding!
+
 # StackOverflow
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.8.
