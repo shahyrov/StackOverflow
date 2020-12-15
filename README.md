@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Run locally
 
-Once you cloned the app, run below commands:
+Once you cloned the project, run below commands:
 
 `cd StackOverflow`
 
